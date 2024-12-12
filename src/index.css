@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #e6e6ff;
+  width: 100vw; /* 100% of the viewport width */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  font-family: "Montserrat", sans-serif; 
+}
